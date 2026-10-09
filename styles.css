@@ -2,7 +2,7 @@
 
 body {
     min-height: 100vh; /* ensures body covers entire screen at min */
-    background-image: linear-gradient(135deg, rgb(3, 3, 3) 10%, rgb(71, 126, 245) 90%);   
+    background-image: linear-gradient(135deg, rgb(109, 105, 105) 10%, rgb(248, 246, 246) 90%);   
       
     text-align: center; /* aligns all text in body to center */ 
     
@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     align-items: center;
     
-    color: white; 
+    color: rgb(0, 255, 255); 
 }
   
   
@@ -24,8 +24,8 @@ body {
     height: 550px;
     width: 375px; 
     
-    background-color: black;
-    border: 5px solid rgb(4, 255, 255);
+    background-color: rgb(194, 97, 240);
+    border: 5px solid rgb(252, 1, 85);
     border-radius: 25px;
     
     margin: auto; /* centers our calculator container */
@@ -46,12 +46,12 @@ body {
 .number-on-screen {
     font-size: 60px; 
     text-align: right;
-    color: white;
+    color: rgb(2, 2, 2);
     
     height: 75px; 
     width: 96%; /* need to set width, otherwise will spill */
     
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     border: none;  /* change red to check */ 
 }
@@ -72,8 +72,8 @@ body {
     border-radius: 100px; /* rounding the buttons */ 
     
     font-size: 40px; 
-    color: #e6e6e6; 
-    background-color: #4f5357; 
+    color: #fffefe; 
+    background-color: #056683; 
     
     cursor: pointer; /* converts cursor to hand when on the button */
 }
@@ -81,7 +81,7 @@ body {
 .pad-button:active,
 .pad-button:hover {
     color: white;
-    background-color: #242729; /* darken background, highlight text */ 
+    background-color: #00f7ff; ; /* darken background, highlight text */ 
     cursor: pointer; 
 
     transition: all .25s;
@@ -93,7 +93,7 @@ body {
     
     font-size: 40px; 
     color: #e6e6e6; 
-    background-color: rgb(69, 71, 202); 
+    background-color: rgb(65, 66, 66); 
     
     cursor: pointer; /* converts cursor to hand when on the button */
 }
@@ -101,7 +101,7 @@ body {
 .pad-button-color:active,
 .pad-button-color:hover {
     color: white; 
-    background-color: #20603d; 
+    background-color: #00f7ff; 
     
     transition: all .25s;
     transition-timing-function: ease-in;
@@ -109,13 +109,13 @@ body {
 
 /* Estilo específico para el botón AC (fuera de las otras clases) */
 #pad-button-ac {
-    background-color: #fd004c; 
+    background-color: #b30404; 
     color: white;
 }
 
 #pad-button-ac:active,
 #pad-button-ac:hover {
-    background-color: #006661; 
+    background-color: #00f7ff; 
     color: rgb(255, 255, 255);
     
     transition: all .25s;
@@ -132,7 +132,7 @@ body {
 .credits-container {
     grid-column: 1/4; 
     
-    color: white; 
+    color: rgb(1, 238, 255); 
     font-size: 20px; 
     
     margin: auto; /* centers the contents to middle */
